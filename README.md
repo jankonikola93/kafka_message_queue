@@ -8,7 +8,7 @@ Follow this steps to run Kafka:
 2. Change working directory to KafkaMQ:
     run command: cd KafkaMQ
 3. Start docker containers:
-    run command: docker-compose.yml up -d
+    run command: docker-compose up -d
     this command will start two containers: broker and zookeeper
 
 Broker container maps host ports 9092 and 29092 to docker ports 9092 and 29092
